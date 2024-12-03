@@ -8,7 +8,7 @@ Ser o mais fiel possível a interface do [Spotify](https://open.spotify.com/intl
 
 ## Instalação
 
-Para criar um novo projeto 
+Para criar um novo projeto.
 
 ## Documentação
 
@@ -20,8 +20,9 @@ Para a criação de um novo projeto execute o seguinte comando (lembre de ter a 
 
 ## Stack utilizada
 
-- **[Next](https://nextjs.org/)**
+- **[Next](https://nextjs.org/)** - (Versão 15.0.3 - Turbopack)
 - **[PNPM](https://pnpm.io/pt/)**
+- **[Lucide](https://lucide.dev/)** - (Biblioteca de Icones)
 
 ## Autores
 

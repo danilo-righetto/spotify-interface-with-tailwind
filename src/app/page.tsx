@@ -1,4 +1,4 @@
-import Image from "next/image";
+import { Home as HomeIcon, Search, Library } from 'lucide-react' ;
 
 export default function Home() {
   return (
@@ -7,7 +7,18 @@ export default function Home() {
         <aside className="w-72 bg-zinc-950 p-6">
           {/* Menu lateral do Spotify */}
           <nav>
-            
+            <a href="https://github.com/danilo-righetto">
+            <HomeIcon />
+              Home
+            </a>
+            <a href="https://github.com/danilo-righetto">
+              <Search />
+              Search
+            </a>
+            <a href="https://github.com/danilo-righetto">
+              <Library />
+              Your Library
+            </a>
           </nav>
         </aside>
         <main className="flex-1 p-6">
