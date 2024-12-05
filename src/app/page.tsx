@@ -54,6 +54,7 @@ export default function Home() {
         <main className="flex-1 p-6">
           {/* Area principal do Spotify */}
           <div className="flex items-center gap-4">
+            {/* Botoes de navegação */}
             <button className="rounded-full bg-black/40 p-1">
               <ChevronLeft />
             </button>
@@ -61,6 +62,7 @@ export default function Home() {
               <ChevronRight />
             </button>
           </div>
+          {/* Seção de Playlists e Albuns mais escutados */}
           <h1 className="font-semibold text-3xl mt-10">Good Afternoon</h1>
           <div className="grid grid-cols-3 gap-4 mt-4">
             <a href="https://www.linkedin.com/in/danilo-righetto/" className="bg-white/5 group rounded flex items-center gap-4 overflow-hidden hover:bg-white/10 transition-colors">
@@ -104,6 +106,35 @@ export default function Home() {
               <button className="flex items-center justify-center p-2 rounded-full bg-green-400 text-black ml-auto mr-8 invisible group-hover:visible">
                 <Play fill="black" />
               </button>
+            </a>
+          </div>
+          {/* Seção de Playlists e Albuns recomendados pelo Spotify */}
+          <h2 className="font-semibold text-2xl mt-10">Made for Danilo Righetto</h2>
+          <div className="grid grid-cols-8 gap-4 mt-4">
+            <a href="https://www.linkedin.com/in/danilo-righetto/" className="bg-white/5 p-3 rounded-md flex flex-col gap-2 hover:bg-white/10">
+              <Image src="/album-1.jpg" className="w-full" width={120} height={120} alt="Capa do álbum All The Right Reasons da banda Nickelback" />
+              <strong className="font-semibold">Daily Mix 1</strong>
+              <span className="text-sm text-zinc-400">Wallows, COIN, girl in red and more</span>
+            </a>
+            <a href="https://www.linkedin.com/in/danilo-righetto/" className="bg-white/5 p-3 rounded-md flex flex-col gap-2 hover:bg-white/10">
+              <Image src="/album-1.jpg" className="w-full" width={120} height={120} alt="Capa do álbum All The Right Reasons da banda Nickelback" />
+              <strong className="font-semibold">Daily Mix 1</strong>
+              <span className="text-sm text-zinc-400">Wallows, COIN, girl in red and more</span>
+            </a>
+            <a href="https://www.linkedin.com/in/danilo-righetto/" className="bg-white/5 p-3 rounded-md flex flex-col gap-2 hover:bg-white/10">
+              <Image src="/album-1.jpg" className="w-full" width={120} height={120} alt="Capa do álbum All The Right Reasons da banda Nickelback" />
+              <strong className="font-semibold">Daily Mix 1</strong>
+              <span className="text-sm text-zinc-400">Wallows, COIN, girl in red and more</span>
+            </a>
+            <a href="https://www.linkedin.com/in/danilo-righetto/" className="bg-white/5 p-3 rounded-md flex flex-col gap-2 hover:bg-white/10">
+              <Image src="/album-1.jpg" className="w-full" width={120} height={120} alt="Capa do álbum All The Right Reasons da banda Nickelback" />
+              <strong className="font-semibold">Daily Mix 1</strong>
+              <span className="text-sm text-zinc-400">Wallows, COIN, girl in red and more</span>
+            </a>
+            <a href="https://www.linkedin.com/in/danilo-righetto/" className="bg-white/5 p-3 rounded-md flex flex-col gap-2 hover:bg-white/10">
+              <Image src="/album-1.jpg" className="w-full" width={120} height={120} alt="Capa do álbum All The Right Reasons da banda Nickelback" />
+              <strong className="font-semibold">Daily Mix 1</strong>
+              <span className="text-sm text-zinc-400">Wallows, COIN, girl in red and more</span>
             </a>
           </div>
         </main>
