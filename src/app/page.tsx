@@ -35,7 +35,7 @@ export default function Home() {
             <a href="https://github.com/danilo-righetto" target="_blank" rel="noopener noreferrer" className="text-sm text-zinc-400 hover:text-zinc-100">Deep House</a>
             <a href="https://github.com/danilo-righetto" target="_blank" rel="noopener noreferrer" className="text-sm text-zinc-400 hover:text-zinc-100">Rock Ballads</a>
             <a href="https://github.com/danilo-righetto" target="_blank" rel="noopener noreferrer" className="text-sm text-zinc-400 hover:text-zinc-100">Top Plays</a>
-            <a href="https://github.com/danilo-righetto" target="_blank" rel="noopener noreferrer" className="text-sm text-zinc-400 hover:text-zinc-100">Top Hits de 2002</a>
+            {/* <a href="https://github.com/danilo-righetto" target="_blank" rel="noopener noreferrer" className="text-sm text-zinc-400 hover:text-zinc-100">Top Hits de 2002</a>
             <a href="https://github.com/danilo-righetto" target="_blank" rel="noopener noreferrer" className="text-sm text-zinc-400 hover:text-zinc-100">Binaural Beats: Focus</a>
             <a href="https://github.com/danilo-righetto" target="_blank" rel="noopener noreferrer" className="text-sm text-zinc-400 hover:text-zinc-100">Nickelback</a>
             <a href="https://github.com/danilo-righetto" target="_blank" rel="noopener noreferrer" className="text-sm text-zinc-400 hover:text-zinc-100">Sextou</a>
@@ -48,7 +48,7 @@ export default function Home() {
             <a href="https://github.com/danilo-righetto" target="_blank" rel="noopener noreferrer" className="text-sm text-zinc-400 hover:text-zinc-100">Hits de Ano Novo</a>
             <a href="https://github.com/danilo-righetto" target="_blank" rel="noopener noreferrer" className="text-sm text-zinc-400 hover:text-zinc-100">Modão 2024</a>
             <a href="https://github.com/danilo-righetto" target="_blank" rel="noopener noreferrer" className="text-sm text-zinc-400 hover:text-zinc-100">Casamento</a>
-            <a href="https://github.com/danilo-righetto" target="_blank" rel="noopener noreferrer" className="text-sm text-zinc-400 hover:text-zinc-100">Romantics</a>
+            <a href="https://github.com/danilo-righetto" target="_blank" rel="noopener noreferrer" className="text-sm text-zinc-400 hover:text-zinc-100">Romantics</a> */}
           </nav>
         </aside>
         <main className="flex-1 p-6">
@@ -139,9 +139,22 @@ export default function Home() {
           </div>
         </main>
       </div>
-      <footer className="bg-zinc-800 border-t border-zinc-700 p-6">
+      <footer className="bg-zinc-800 border-t border-zinc-700 p-6 flex items-center justify-between">
         {/* Player do Spotify */}
-        footer
+        <div className="flex items-center gap-2">
+          {/* Musica que está tocando atualmente */}
+          <Image src="/album-1.jpg" width={56} height={56} alt="Capa do álbum All The Right Reasons da banda Nickelback" />
+          <div className="flex flex-col">
+            <strong className="font-normal">Photograph</strong>
+            <span className="text-xs text-zinc-400">Nickelback</span>
+          </div>
+        </div>
+        <div>
+          {/* Player */}
+        </div>
+        <div>
+          {/* Recursos do Player */}
+        </div>
       </footer>
     </div>
   );
