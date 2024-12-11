@@ -8,7 +8,25 @@ Nesse projeto será recriada a interface do [Spotify](https://open.spotify.com/i
 
 Ser o mais fiel possível a interface do [Spotify](https://open.spotify.com/intl-pt).
 
-## Instalação
+## Iniciando o projeto com Docker
+
+**Atenção**: verifique se o **Docker** e o **Docker Compose** estão instalado no seu ambiente antes de executar os comando á seguir!
+
+Antes de subir o projeto com todos os serviços necessários para o seu correto funcionamento, execute o comando para construir as imagens:
+
+```bash
+docker-compose build --no-cache
+```
+
+Em seguida, execute o comando abaixo para subir todos os serviços necessários:
+
+```
+docker-compose up -d
+```
+
+Após isso acesse [http://localhost:3000](http://localhost:3000).
+
+## Instalação sem o Docker
 
 Para iniciar o projeto execute os comando abaixo: 
 
